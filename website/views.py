@@ -13,6 +13,14 @@ def contact_view(request):
     return render(request, 'website/contact.html')
 
 
-def resume_view(request):
-    return render(request, 'website/resume.html')
+def skills_view(request):
+    return render(request, 'website/skills.html')
+
+
+def education_view(request):
+    return render(request, 'website/education.html')
+
+
+def project_view(request):
+    return render(request, 'website/projects.html')
 # Create your views here.
