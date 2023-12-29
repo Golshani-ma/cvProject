@@ -8,8 +8,11 @@ def index_view(request):
 def about_view(request):
     return render(request, 'website/about.html')
 
+
 def contact_view(request):
     return render(request, 'website/contact.html')
+
+
 def resume_view(request):
     return render(request, 'website/resume.html')
 # Create your views here.
