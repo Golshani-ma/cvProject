@@ -28,5 +28,6 @@ urlpatterns = [
     path('skills', skills_view, name='skills_page'),
     path('education', education_view, name='education_page'),
     path('project', project_view, name='project_page'),
+    path('test', test_view, name='test_page'),
 
 ]
